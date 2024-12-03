@@ -25,6 +25,8 @@ export default function EveryProduct({
     // }, result => setCount(result.cartItems.find((item: any) => item.item_id === product.id)?.quantity ?? 0))
   };
 
+
+
   const addToCart = () => {
     // request(MethodType.PUT, 'cart', {
     //   "chat_id": chatId,
