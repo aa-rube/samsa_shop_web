@@ -86,8 +86,8 @@ export default function Basket({ userData }: any) {
       </div>
       {/* <div className="footer"> */}
       <p className="contact-info">
-        <p className="number_title">По всем вопросам</p>
-        <p className="number">@Ann_A01</p>
+        <p className="number_title">Телефон для связи</p>
+        <p className="number">Телефон для связи</p>
       </p>
     </div>
   );
