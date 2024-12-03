@@ -105,7 +105,7 @@ export const request = (
   if (method !== MethodType.GET) {
     requestOptions.body = raw;
   }
-  const url = "http://167.88.166.30:443/samsa_shop/shop/" + requestUrl;
+  const url = "http://167.88.166.30:80/samsa_shop/shop/" + requestUrl;
   // const url = 'http://localhost:4000/' + requestUrl;
 
   fetch(url, requestOptions)
