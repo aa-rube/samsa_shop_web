@@ -19,7 +19,7 @@ export default function BasketProduct({
 }) {
   const [isLoading, setIsLoading] = useState(false);
 
-  const url = "http://167.88.166.30:80/samsa_shop/samsa_shop/shop/";
+  const url = "http://167.88.166.30:80/samsa_shop/shop/";
 
   const handleClickIncrement = (e: any) => {
     e.stopPropagation();
